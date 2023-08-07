@@ -62,6 +62,10 @@ img{
     border-bottom: 3px solid #FFF;
     background: rgba(43, 74, 97, 0.87);
     max-width: 1590px;
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+    rgba(43, 74, 97, 0.87)),url(./images/Rectangle\ 104.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-header {
@@ -308,6 +312,10 @@ position: relative;
     background-color: rgba(43, 74, 97, 0.87);
     height: 223px;
     position: relative;
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+    rgba(43, 74, 97, 0.87)),url(./images/Rectangle\ 104.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo-foot {
