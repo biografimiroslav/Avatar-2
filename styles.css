@@ -1,0 +1,380 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    font-style: normal;
+}
+
+li{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p{
+margin-top: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.container-main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+
+
+.container-footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+
+/* header */
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    margin:-8px;
+    position: absolute;
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
+    max-width: 1590px;
+}
+
+.container-header {
+    display: flex;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+
+.logo {
+    margin-right: 160px;
+    padding-top: 39px;
+    display: block;
+    top: 39px;
+}
+
+.menu {
+    margin-right: 212px;
+    padding-top: 63px;
+    display: flex;
+    gap: 38px;
+    left: 558px;
+}
+
+.nav-menu {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.current {
+    color: #94CFFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.header-btn {
+    margin-top: 54px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #26C6EA;
+    font-family: 'HeadlandOne', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 9px 38px;
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    cursor: pointer;
+}
+
+.list-item {
+    top: 70px;
+    right: 48px;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+}
+.lang-item {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: default;
+    display: flex;
+}
+
+.swich {
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero {
+    margin: -8px;
+    background-image:url('./images/Group\ 48\ 1.png');
+    height: 740px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    padding-top: 180px;
+}
+
+.hero-text {
+    color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 298px;
+margin: 40px 0px;
+}
+
+.hero-btn {
+    color: #26C7EA;
+    padding: 10px 30px;
+    max-width: 199px;
+    text-align: center;
+    font-family: 'HeadlandOne', sans-serif;
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* foresign */
+
+.foresign {
+    padding-top: 75px;
+    padding-bottom: 8px;
+}
+
+.foresign-title {
+    color: #0A3853;
+font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+line-height: normal;
+font-weight: 900;
+    text-align: center;
+    letter-spacing: .06em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foresign-text {
+    color: #000;
+text-align: justify;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+/* trailer */
+
+.trailer {
+    background-image:url('./images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    margin: -8px;
+    padding-top: 330px;
+    padding-bottom: 331px;
+    text-align: center;
+}
+
+.trailer-btn {
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    padding: 25px 20px;
+    color: #26C7EA;
+    text-align: justify;
+    font-family: 'HeadlandOne', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    cursor: pointer;
+}
+
+/* learn */
+
+.learn {
+    margin: -8px;
+    padding-top: 58px;
+    background: url('./images/Rectangle\ 20.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 704px;
+    padding-bottom: 57px;
+}
+
+.learn-title {
+    text-align: center;
+    color: #141414;
+font-family: 'HeadlandOne', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.learn-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 36px;
+    text-align: center;
+}
+
+.learn-item {
+    background-color: rgba(255, 255, 255, 0.70);
+    padding-top: 34px;
+    padding-bottom: 36px;
+    height: 240px;
+}
+
+
+
+.learn-text {
+    color: #141414;
+font-family: 'HeadlandOne', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 100% */
+padding-bottom:180px ;
+position: relative;
+}
+
+.learn-section {
+    height: 240px;
+}
+
+/* footer */
+
+.footer {
+    margin: -8px;
+    background-color: rgba(43, 74, 97, 0.87);
+    height: 223px;
+    position: relative;
+}
+
+.logo-foot {
+    position: absolute;
+    position: relative;
+    top: 77px;
+}
+
+.foot-list {
+    padding-left: 547px;
+    position: absolute;
+    top: 80px;
+}
+
+.foot-email{
+    padding-left: 963px;
+    top: 80px;
+    position: absolute;
+}
+
+.item-email {
+    color: #ffffff;
+text-align: justify;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+.item-info {
+    color: #FFF;
+text-align: justify;
+font-family: 'Inter' sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.item-email-a {
+    color: #FFF;
+text-align: justify;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.line {
+    position: absolute;
+    margin-left: 467px;
+    top: 35px;
+}
+
+.line-email-big {
+    position: absolute;
+    position: relative;
+    left: 674px;
+    top: 22px;
+}
+
+.line-email-smal {
+    position: absolute;
+    position: relative;
+    left: 749px;
+    top: 60px;
+}
