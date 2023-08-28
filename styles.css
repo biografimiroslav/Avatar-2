@@ -55,17 +55,18 @@ img{
 /* header */
 
 .header {
+    height: 150px;
+    flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
-    margin:-8px;
-    position: absolute;
+    margin: -8px;
     border-bottom: 3px solid #FFF;
-    background: rgba(43, 74, 97, 0.87);
-    max-width: 1590px;
-    background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-    rgba(43, 74, 97, 0.87)),url(./images/Rectangle\ 104.png);
+    width: 1590px;
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),url(./images/Rectangle\ 104.png);
     background-repeat: no-repeat;
     background-size: cover;
+    left: auto;
+    right: auto;
 }
 
 .container-header {
@@ -110,6 +111,16 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+.currrent:hover {
+    color: #94CFFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .header-btn {
@@ -158,11 +169,12 @@ line-height: normal;
 .hero {
     margin: -8px;
     background-image:url('./images/Group\ 48\ 1.png');
-    height: 740px;
+    height: 940px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
     padding-top: 180px;
+    border-top: 3px solid #FFF;
 }
 
 .hero-text {
